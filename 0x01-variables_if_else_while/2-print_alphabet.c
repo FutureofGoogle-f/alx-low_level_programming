@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * description: using the main function
+ *return: 0
+ */
 int main(void)
 {
 	char ch;
