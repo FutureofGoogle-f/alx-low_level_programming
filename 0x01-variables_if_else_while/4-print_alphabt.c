@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
  * Description: using the main function
  *this program prints "abcdfghijklmnoprstuvwxyz"
- * 
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,7 +10,7 @@ int main(void)
 	char ch;
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if(ch != 'e' && ch!= 'q')
+		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
 		}
