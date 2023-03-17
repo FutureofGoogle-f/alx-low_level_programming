@@ -1,7 +1,11 @@
 #include <stdio.h>
 /**
- * description: using the main function
- *return: 0
+ * main - Entry point
+ *
+ * Description: using the main function
+ * this program prints "abcdefghijklmnopqrstuvwxyz"
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
