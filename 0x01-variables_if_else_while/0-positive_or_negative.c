@@ -2,14 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - print if the number is positive,zero,or negative 
+ *main - print if the number is positive,zero,or negative
  *Description: using the main function
- *this program prints "programing is positive,zero,negative" 
+ *this program prints "programing is positive,zero,negative"
  * Return: 0
  */
 int main(void)
 {
         int n;
+
         srand(time(0));
         n = rand() - RAND_MAX / 2;
         if (n > 0)
