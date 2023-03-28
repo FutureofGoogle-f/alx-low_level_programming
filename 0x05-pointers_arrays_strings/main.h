@@ -1,5 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * File: main.h
  * desc: header file containing prototypes for all functions used
