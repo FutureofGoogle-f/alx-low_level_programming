@@ -21,7 +21,7 @@ int power_operation(int n, int c)
  * @n: input number
  * Return: natural square root
  */
-int int _sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
