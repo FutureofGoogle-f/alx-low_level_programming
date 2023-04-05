@@ -2,7 +2,7 @@
 /**
  *powe_operation - retuens the natural square root of a number
  *@n: input number
- @c: iterator
+ *@c: iterator
  * Return: square root or -1
  */
 int power_operation(int n, int c)
