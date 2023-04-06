@@ -1,32 +1,28 @@
 #include "main.h"
 /*
- * print_number - prints an integer
- * @n: input integer
+ *-strncat - concatenates two strings
+ *@dest: destination
+ *@src: source
+ *n: amount of bytes used from src
+ *return: pointer to dest
  */
-void print_number(int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	unsigned int m, d, count;
-	
-	if (n < 0)
-	{
-		_putchar(45)
-		m = n * -1;
-	}
-	else
-	{
-		m = n;
-	}
-	d = m;
-	count = 1;
+	int count = 0, count2 = 0;
 
-	while (d > 9)
+	while (*(dest + count) != '\0')
 	{
-		d /= 10;
-		count *= 10;
+		count++;
 	}
-	for (; count >= 1; count /=10)
+
+	while (count2 < n)
 	{
-		_putchar(((m / count) % 10) + 48;
+		*(dest + count) = *(src + count2);
+		if (*(src + count2) == '\0')
+			break;
+		count++;
+		count2++;
 	}
+	return (dest);
 }
 
